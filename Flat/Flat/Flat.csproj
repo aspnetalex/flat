@@ -51,6 +51,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Controls\FlatButton.ascx" />
+    <Content Include="Controls\style.css" />
     <Content Include="index.aspx" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -61,6 +63,13 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Controls\FlatButton.ascx.cs">
+      <DependentUpon>FlatButton.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Controls\FlatButton.ascx.designer.cs">
+      <DependentUpon>FlatButton.ascx</DependentUpon>
+    </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
