@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Flat/Controls/FlatButton.ascx.cs">
+    <Files>
+      <File FileName="Flat/Controls/FlatButton.ascx" Line="1" Column="1" />
+      <File FileName="Flat/Controls/FlatButton.ascx.cs" Line="28" Column="24" />
+      <File FileName="Flat/Controls/FlatButton.ascx.designer.cs" Line="21" Column="13" />
+      <File FileName="Flat/index.aspx" Line="16" Column="114" />
+      <File FileName="Flat/Controls/style.css" Line="19" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

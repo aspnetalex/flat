@@ -11,6 +11,7 @@ namespace FlatButton.Controls
     {
         public string Text { get; set; }
 		public string Href { get; set; }
+		public string Target { get; set; }
 		
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -24,6 +25,7 @@ namespace FlatButton.Controls
                 Btn.Text = Text;
             }
 			Btn.Attributes["href"] = Href;
+			Btn.Attributes["target"] = Target;
         }
 		
 		

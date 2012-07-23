@@ -13,7 +13,7 @@
     <div style="height: 116px; width: 798px">
             <br />
             <br />
-            <fltBtn:FlatButton ID="Mark" Text="Google" runat="server" Href="http://www.google.com"/>    
+            <fltBtn:FlatButton ID="Mark" Text="Google" runat="server" Href="http://www.google.com" Target="_blank"/>    
     &nbsp;
             <fltBtn:FlatButton ID="Check" Text="Yandex" runat="server" Href="http://www.yandex.ru" />
     &nbsp;
