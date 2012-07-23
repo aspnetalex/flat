@@ -4,17 +4,21 @@
 
 .flatbutton {
   font-family: Arial;
-  color: #ffffff;
+  color: #000000;
   font-size: 15px;
   padding: 10px;
   text-decoration: none;
-  -webkit-box-shadow: 1px 2px 3px #666666;
-  -moz-box-shadow: 1px 2px 3px #666666;
-  text-shadow: 1px 1px 0px #666666;
-  background: #cccccc;
+  background: #ffffff;
+
 }
 .flatbutton:hover {
   background: #42aaff;
+  -webkit-box-shadow: 1px 2px 3px #666666;
+  -moz-box-shadow: 1px 2px 3px #666666;
+  text-shadow: 1px 1px 0px #666666;
+  color: #ffffff;
+
+
 }
 
 .dialogBox
@@ -31,3 +35,23 @@
     box-shadow: 10px 10px 5px #888;
     background: #DBDBDD;
 }
+
+/*
+
+
+.flatbutton {
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px;
+  text-decoration: none;
+  background: #cccccc;
+}
+.flatbutton:hover {
+  background: #42aaff;
+  -webkit-box-shadow: 1px 2px 3px #666666;
+  -moz-box-shadow: 1px 2px 3px #666666;
+  text-shadow: 1px 1px 0px #666666;
+
+}
+*/

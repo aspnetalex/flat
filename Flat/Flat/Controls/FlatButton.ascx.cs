@@ -9,20 +9,23 @@ namespace FlatButton.Controls
 {
     public partial class FlatButton : System.Web.UI.UserControl
     {
-        public string BtnText { get; set; }
-
+        public string Text { get; set; }
+		public string Href { get; set; }
+		
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (BtnText == "")
+            if (Text == "")
             {
                 Btn.Text = "There is NO text";
 
             }
             else
             {
-                Btn.Text = BtnText;
+                Btn.Text = Text;
             }
-
+			Btn.Attributes["href"] = Href;
         }
+		
+		
     }
 }
