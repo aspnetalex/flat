@@ -10,6 +10,7 @@ namespace FlatButton.Controls
     public partial class FlatButton : System.Web.UI.UserControl
     {
         public string BtnText { get; set; }
+		public string BtnHref { get; set; }
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -22,7 +23,7 @@ namespace FlatButton.Controls
             {
                 Btn.Text = BtnText;
             }
-
+			Btn.Attributes["href"] = BtnHref;
         }
     }
 }

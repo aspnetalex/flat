@@ -13,7 +13,7 @@
     <div style="height: 116px; width: 798px">
             <br />
             <br />
-            <fltBtn:FlatButton ID="Mark" BtnText="Mark this one" runat="server" />    
+            <fltBtn:FlatButton ID="Mark" BtnText="Google.com" runat="server" BtnHref="google.com" />    
     &nbsp;
             <fltBtn:FlatButton ID="Check" BtnText="Check package" runat="server" />
     &nbsp;
