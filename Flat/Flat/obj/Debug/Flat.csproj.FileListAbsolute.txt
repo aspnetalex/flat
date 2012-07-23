@@ -1,0 +1,5 @@
+C:\flat\Flat\Flat\bin\Flat.dll
+C:\flat\Flat\Flat\bin\Flat.pdb
+C:\flat\Flat\Flat\obj\Debug\ResolveAssemblyReference.cache
+C:\flat\Flat\Flat\obj\Debug\Flat.dll
+C:\flat\Flat\Flat\obj\Debug\Flat.pdb
